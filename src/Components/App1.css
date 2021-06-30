@@ -1,0 +1,55 @@
+.app-input{
+
+    display: block;
+    padding: 2% 1%;
+    margin: 1% auto;
+}
+
+.display{
+
+    padding: 2% 1%;
+    text-align: left;
+}
+
+.images-class{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.display-img{
+
+    display: block;
+    height: 100px;
+    width: 100px; 
+    padding: 1%;
+}
+
+.display p{
+
+    display: inline;
+}
+
+.del-button{
+
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+.del-button:hover{
+
+    background-color: red;
+}
+
+.delete-img{
+justify-content: right;
+    background-color: lightgray;
+    border: 1px solid black;
+    border-radius: 1px;
+}
+
+.delete-img:hover{
+
+    background-color: red;
+}
